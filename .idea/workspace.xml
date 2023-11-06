@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d98d0c6-d262-43af-92c6-f43bc651961d" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lessons/bonus/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lessons/bonus/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lessons/bonus/TicketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lessons/model/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lessons/model/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/lessons/model/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/lessons/model/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="5d98d0c6-d262-43af-92c6-f43bc651961d" name="Changes" comment="bonus">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/lessons/bonus/TicketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/lessons/bonus/TicketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +57,16 @@
       <recent name="org.lessons.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicketTest">
-    <configuration name="CalculatorTest.divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lessons.bonus.Main" />
       <module name="java-calculator-tester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.lessons.model.*" />
+          <option name="PATTERN" value="org.lessons.bonus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.lessons.model" />
-      <option name="MAIN_CLASS_NAME" value="org.lessons.model.CalculatorTest" />
-      <option name="METHOD_NAME" value="divide" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TicketTest" />
         <item itemvalue="JUnit.TicketTest.getChilometri" />
         <item itemvalue="JUnit.TicketTest.calcoloPrezzoGiovani" />
         <item itemvalue="JUnit.TicketTest.calcoloPrezzoAnziani" />
-        <item itemvalue="JUnit.CalculatorTest.divide" />
       </list>
     </recent_temporary>
   </component>
@@ -169,11 +161,20 @@
       <option name="project" value="LOCAL" />
       <updated>1699283077269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bonus">
+      <option name="closed" value="true" />
+      <created>1699289292897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699289292897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="bonus" />
   </component>
 </project>

@@ -9,11 +9,11 @@ public class Ticket {
     private int eta;
 
     public Ticket(int chilometri, int eta) throws IllegalArgumentException {
-        if (chilometri < 0) {
-            throw new IllegalArgumentException("I chilometri devono essere un numero positivo.");
+        if (chilometri <= 0) {
+            throw new IllegalArgumentException("I chilometri devono essere un numero positivo superiore a 0.");
         }
-        if (eta < 0) {
-            throw new IllegalArgumentException("L'età deve essere un numero positivo.");
+        if (eta <= 0) {
+            throw new IllegalArgumentException("L'età deve essere un numero positivo superiore a 0.");
         }
         this.chilometri = chilometri;
         this.eta = eta;

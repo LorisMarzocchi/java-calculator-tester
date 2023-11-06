@@ -7,6 +7,28 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TicketTest {
 
+//    void calcoloPrezzoGiovani() {
+//        Ticket ticket = new Ticket(100, 17);
+//        double prezzoBase = 100 * 0.21;
+//        double sconto = prezzoBase * 0.20; // 20% di sconto per i giovani
+//        double prezzoAtteso = prezzoBase - sconto;
+//        assertEquals(prezzoAtteso, ticket.calcolaPrezzo(), 0.01, "Prezzo scontato per giovani non corretto");
+//    }
+//@Test
+//void calcoloPrezzoAnziani() {
+//    Ticket ticket = new Ticket(100, 66);
+//    double prezzoBase = 100 * 0.21;
+//    double sconto = prezzoBase * 0.40; // 40% di sconto per gli anziani
+//    double prezzoAtteso = prezzoBase - sconto;
+//    assertEquals(prezzoAtteso, ticket.calcolaPrezzo(), 0.01, "Prezzo scontato per anziani non corretto");
+//}
+//
+//    @Test
+//    void calcoloPrezzoStandard() {
+//        Ticket ticket = new Ticket(100, 30);
+//        double prezzoBase = 100 * 0.21; // Nessuno sconto applicato
+//        assertEquals(prezzoBase, ticket.calcolaPrezzo(), 0.01, "Prezzo standard non corretto");
+//    }
     @Test
     @DisplayName("controllo prezzo giovani")
     void calcoloPrezzoGiovani() {
