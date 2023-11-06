@@ -16,9 +16,9 @@ public interface Calculator {
         return num1 * num2;
     }
 
-    static float divide(float num1, float num2) {
+    static float divide(float num1, float num2) throws IllegalArgumentException {
         if (num2 == 0) {
-            throw new ArithmeticException("impossibile dividere per 0");
+            throw new IllegalArgumentException("impossibile dividere per 0");
         }
         return num1 / num2;
     }
